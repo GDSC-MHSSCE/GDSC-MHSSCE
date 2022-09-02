@@ -11,8 +11,8 @@ const Team = () => {
       className="h-full items-center justify-around mx-auto md:px-6 md:py-8 lg:px-8 lg:py-12 mb-12 scroll-mt-[80px]"
       id="team"
     >
-      <h2 className="text-center font-semibold text-2xl">Team</h2>
-      <h5 className="text-xl text-[#777777] font-medium -mt-2 font-regular text-center">
+      <h2 className="text-center font-semibold text-md md:text-lg text-xl">Team</h2>
+      <h5 className=" text-sm md:text-md lg:text-lg text-[#777777] font-medium -mt-2 font-regular text-center">
         Meet Our Wonderful Team Members
       </h5>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-4 mx-auto gap-y-4 md:gap-y-6 mt-8 items-center ">

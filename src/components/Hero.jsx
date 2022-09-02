@@ -11,13 +11,14 @@ const Hero = () => {
         className="scroll-mt-[80px] flex flex-col md:flex-row justify-around items-center py-8 px-0 mb-16 md:py-12 lg:py-2 "
       >
         <div className="basis-[40%] flex flex-col  text-center mx-auto md:text-start md:mx-0 gap-y-0 items-start order-2  md:py-12 lg:py-8 lg:px-0 md:px-0 md:order-1">
-          <div className="text-2xl text-start  md:px-0 md:mx-0 md:text-3xl lg:text-4xl xl:text-5xl mb-0 font-medium">
+          <div className="text-3xl text-start  md:px-0 md:mx-0 md:text-4xl lg:text-4xl xl:text-6xl mb-0 font-medium">
             <Typewriter
               options={{
                 autoStart: true,
                 loop: true,
                 cursor: '<span class="text-[#b1b1b1] font-extralight">|</span>',
-                delay: 200,
+                delay: 260,
+                deleteSpeed: 'natural',
               }}
               onInit={(typewriter) => {
                 typewriter
@@ -45,7 +46,7 @@ const Hero = () => {
               Explore new paths, get acquainted with the knowledge that really matters and create
               impact on communities through technology.
             </p>
-            <p className="pt-8  md:mx-0 text-xs md:text-sm lg:text-lg text-start">
+            <p className="pt-8  md:mx-0 text-sm md:text-md lg:text-lg text-start">
               Become a
               <a
                 href="https://gdsc.community.dev/mh-saboo-siddik-college-of-engineering-mumbai/"
@@ -63,11 +64,11 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="flex-initial max-w-sm md:max-w-full md:basis-[50%] hover:scale-105 duration-500 order-1 md:order-2">
+        <div className="flex-initial max-w-[29rem] md:max-w-full md:basis-[50%] hover:scale-105 duration-500 order-1 md:order-2">
           <img
             src={HeroImage}
             alt="hero"
-            className="h-48 sm:h-52 md:h-[17rem] lg:h-[24rem] mx-auto text-center "
+            className="h-52 sm:h-52 md:h-[17rem] lg:h-[24rem] mx-auto text-center "
           />
         </div>
       </section>

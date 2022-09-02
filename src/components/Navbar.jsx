@@ -15,7 +15,7 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 60) {
+      if (window.scrollY > 70) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -29,9 +29,8 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        isScrolled &&
-        'bg-[#c6e5ff] bg-opacity-50 backdrop-blur-sm  border-black border-b-1 rounded drop-shadow-lg '
-      } shadow-md z-40 w-full fixed top-0 items-center justify-around justify-items-center`}
+        isScrolled && 'shadow-xl border-black rounded drop-shadow-lg '
+      } shadow-none z-40 w-full  fixed top-0 items-center justify-around duration-700 transition-all ease-in justify-items-center`}
     >
       <div className="md:flex bg-white items-center justify-between py-3 md:px-10 px-7">
         <div

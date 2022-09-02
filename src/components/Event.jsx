@@ -7,17 +7,17 @@ const Event = () => {
   return (
     <section className="h-full lg:h-[90vh] items-center mb-12 scroll-mt-[80px]" id="event">
       <h2 className="font-semibold text-lg md:text-xl lg:text-2xl text-center ">Event</h2>
-      <h5 className="-mt-2 font-medium text-md md:text-lg lg:text-xl text-[#777777] text-center ">
+      <h5 className="-mt-2 font-medium text-md mb-4 md:text-lg lg:text-xl text-[#777777] text-center ">
         Upcoming Event
       </h5>
-      <div className="flex flex-col md:flex-row justify-end mx-auto items-center py-2 px-4 md:py-4 md:px-8 lg:py-6 lg:px-12">
+      <div className="flex flex-col md:flex-row justify-end mx-auto items-center py-2 sm:px-2 md:py-4 md:px-8 lg:py-6 lg:px-12">
         <div className="md:basis-[50%] lg:basis-[60%] text-start py-4 order-2 md:order-1 ">
           <h3 className="font-medium text-md lg:text-xl mb-1">Learn Web3 the easy way</h3>
-          <p className="text-start text-xs sm:text-sm md:text-sm lg:text-md mb-4">
+          <p className="text-start text-[0.8rem] sm:text-sm md:text-sm lg:text-md mb-4">
             Ever wondered how web3 apps are made using Flutter ? Our Android Co-lead is here to
             teach you from the basic and make you a confident web3 Dapp developer in just 1 workshop
           </p>
-          <h6 className="text-xs sm:text-sm md:text-sm lg:text-md font-regular text-[#777777] mb-1">
+          <h6 className="text-[0.8rem] sm:text-sm md:text-sm lg:text-md font-regular text-[#777777] mb-1">
             What will be taught in this session ?
           </h6>
           <ul className="list-disc text-xs sm:text-sm md:text-sm lg:text-md text-regular px-4 mb-5">
@@ -28,16 +28,18 @@ const Event = () => {
           </ul>
           <div className="grid grid-cols-2 gap-y-4  mt-8 mx-auto justify-items-around justify-around">
             <div>
-              <h6 className=" text-xs lg:text-sm  font-semibold mb-2 ">Schedule</h6>
+              <h6 className=" text-[0.8rem] lg:text-sm  font-semibold mb-2 ">Schedule</h6>
               <p className=" text-xs lg:text-sm">17th September, 2022 </p>
               <p className=" text-xs lg:text-sm">11:00 am - 1:00 pm</p>
             </div>
             <div>
-              <h6 className=" text-xs lg:text-sm font-semibold mb-2  ">Mode of Lecture</h6>
+              <h6 className=" text-[0.8rem] lg:text-sm font-semibold mb-2  ">Mode of Lecture</h6>
               <p className=" text-xs lg:text-sm">Online</p>
             </div>
             <div>
-              <h6 className=" text-xs lg:text-sm font-semibold mb-2">G-meet Link</h6>
+              <h6 className=" text-[0.8rem] w-max md:w-full lg:text-sm font-semibold mb-2">
+                G-meet Link
+              </h6>
               <a href={'/'} className=" text-xs lg:text-sm text-dark-blue ">
                 https://g-meet/pqyt77m
               </a>

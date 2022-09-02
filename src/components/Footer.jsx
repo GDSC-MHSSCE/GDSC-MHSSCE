@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="w-full text-sm flex flex-col shadow-xl basis-[90%] bg-[#dbdbdb] px-4 sm:px-6 md:px-8 lg:px-12 "
+      className="w-full text-sm flex flex-col shadow-xl basis-[90%] bg-[#dbdbdb] px-4 sm:px-5 md:px-6 lg:px-8 "
     >
       <div className="flex flex-col lg:flex-row space-x-8 py-8 ">
         <div className="basis-[25%] flex lg:flex-col space-x-4 lg:space-x-0 space-y-0 mx-auto items-center mb-12 lg:mb-12 ">
@@ -32,28 +32,46 @@ const Footer = () => {
           <div className="basis-[36%] hidden  md:block ">
             <h5 className="font-medium mb-4">Page Section</h5>
             <div className="text-start space-y-4 -mt-2 ">
-              <p className="hover:text-blue">
-                <a href="/"> GDSC </a>{' '}
+              <p className="">
+                <a href="/" className="hover:text-blue">
+                  {' '}
+                  GDSC{' '}
+                </a>{' '}
               </p>
-              <p className="hover:text-blue">
-                <a href="/"> Event </a>{' '}
+              <p className="">
+                <a href="/" className="hover:text-blue">
+                  {' '}
+                  Event{' '}
+                </a>{' '}
               </p>
-              <p className="hover:text-blue">
-                <a href="/"> Team </a>{' '}
+              <p className="">
+                <a href="/" className="hover:text-blue">
+                  {' '}
+                  Team{' '}
+                </a>{' '}
               </p>
             </div>
           </div>
           <div className="basis-[36%]">
             <h5 className="font-medium text-xs sm:text-sm md:text-base mb-4">GDSC Section</h5>
             <div className="text-start text-xs sm:text-sm lg:text-md space-y-2 md:space-y-4 -mt-2 ">
-              <p className="hover:text-blue">
-                <a href="/"> Chapter </a>{' '}
+              <p className="">
+                <a href="/" className="hover:text-blue">
+                  {' '}
+                  Chapter{' '}
+                </a>{' '}
               </p>
-              <p className="hover:text-blue">
-                <a href="/"> Contribute </a>{' '}
+              <p className="">
+                <a href="/" className="hover:text-blue">
+                  {' '}
+                  Contribute{' '}
+                </a>{' '}
               </p>
-              <p className="hover:text-blue">
-                <a href="/"> Member </a>{' '}
+              <p className="">
+                <a href="/" className="hover:text-blue">
+                  {' '}
+                  Member{' '}
+                </a>{' '}
               </p>
             </div>
           </div>
@@ -81,7 +99,7 @@ const Footer = () => {
       {/* <div className="w-full flex-grow text-[#777777] mx-auto ">
                 <hr />
             </div> */}
-      <div className="basis-[10%] text-[0.55rem] sm:text-xs md:text-sm space-x-12 w-full mt-6 lg:mt-0 md:text-end flex mx-auto font-medium justify-between pb-1 px-16 ">
+      <div className="basis-[10%] text-xxs md:text-xs -space-y-2 mt-6 lg:mt-0 md:text-end flex flex-col mx-auto text-center font-base justify-center pb-1 px-16 ">
         {/* <div>
           Made with 💗 by{' '}
           <a
@@ -94,8 +112,14 @@ const Footer = () => {
             Noru
           </a>{' '}
         </div> */}
-        <a href="/">&copy; Google Developer Student Club</a>
-        <a href="/">Apache v2 Licensed</a>
+        <a
+          href="https://github.com/yasier-ansari/GDSC-MHSSCE"
+          target="_blank"
+          className="text-center"
+          rel="noreferrer"
+        >
+          &copy; Apache-2.0 || GDSC MHSSCE
+        </a>
       </div>
     </footer>
   );

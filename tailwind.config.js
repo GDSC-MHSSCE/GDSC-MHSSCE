@@ -1,0 +1,41 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: ['./src/**/*.{js,jsx,ts,tsx}'],
+    theme: {
+        extend: {},
+        fontFamily: {
+            google: ['Poppins', 'sans-serif'],
+        },
+        colors: {
+            blue: '#42A5F5',
+            black: '#000000',
+            red: '#EF5350',
+            yellow: '#FFCA28',
+            white: '#FFFFFF',
+            green: '#66BB6A',
+            'light-blue': '#90CAF9',
+            'light-red': '#EF9A9A',
+            'light-yellow': '#FFE082',
+            'light-green': '#A5D6A7',
+            'dark-blue': '#2196F3',
+            'dark-red': '#F44336',
+            'dark-yellow': '#FFC107',
+            'dark-green': '#4CAF50',
+        },
+        fontSize: {
+            xxs: '.6rem',
+            xs: '.75rem',
+            sm: '.875rem',
+            base: '1rem',
+            lg: '1.125rem',
+            xl: '1.25rem',
+            '2xl': '1.5rem',
+            '3xl': '1.875rem',
+            '4xl': '2.25rem',
+            '5xl': '3rem',
+            '6xl': '4rem',
+            '7xl': '5rem',
+        },
+    },
+    plugins: [],
+};

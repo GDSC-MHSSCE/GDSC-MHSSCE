@@ -5,7 +5,7 @@ import Logo from '../assets/left-align-logo.png';
 
 const Event = () => {
   return (
-    <section className="h-full lg:h-[90vh] items-center mb-12">
+    <section className="h-full lg:h-[90vh] items-center mb-12 scroll-mt-[80px]" id="event">
       <h2 className="font-semibold text-lg md:text-xl lg:text-2xl text-center ">Event</h2>
       <h5 className="-mt-2 font-medium text-md md:text-lg lg:text-xl text-[#777777] text-center ">
         Upcoming Event

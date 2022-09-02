@@ -6,10 +6,10 @@ import { FaBars, FaAlignCenter } from 'react-icons/fa';
 
 const Navbar = () => {
   let Links = [
-    { name: 'GDSC', link: '/' },
-    { name: 'Community', link: '/' },
-    { name: 'Team', link: '/' },
-    { name: 'Event', link: '/' },
+    { name: 'GDSC', link: '#gdsc' },
+    { name: 'Community', link: '#community' },
+    { name: 'Team', link: '#team' },
+    { name: 'Event', link: '#event' },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -39,20 +39,21 @@ const Navbar = () => {
       text-gray-800"
         >
           {/* <span className=" ml-1 px-2"> */}
-          <img
-            src={Logo}
-            alt=""
-            className=" hidden md:block h-8 items-start md:h-10 md:items-center mx-auto text-center"
-          />
-          <img
-            src={Logosm}
-            alt=""
-            className=" h-5 sm:h-6 block md:hidden items-start mr-2 md:h-12 text-start"
-          />
-          {/* </span> */}
-          <span className="block md:hidden text-lg font-bold">MHSSCE</span>
+          <a href="#hero">
+            <img
+              src={Logo}
+              alt=""
+              className=" hidden md:block h-8 items-start md:h-10 lg:h-[3.2rem] md:items-center mx-auto text-center"
+            />
+            <img
+              src={Logosm}
+              alt=""
+              className=" h-5 sm:h-6 block md:hidden items-start mr-2 text-start"
+            />
+            {/* </span> */}
+            <span className="block md:hidden text-md font-semibold">MHSSCE</span>
+          </a>
         </div>
-
         <div
           onClick={() => setOpen(!open)}
           className="text-lg absolute right-8 top-6 cursor-pointer  md:hidden"
@@ -67,15 +68,17 @@ const Navbar = () => {
           }`}
         >
           {Links.map((link) => (
-            <li key={link.name} className="md:ml-8 text-md font-semibold md:my-0 my-7">
+            <li key={link.name} className="md:ml-8 text-md font-medium md:my-0 my-7">
               <a href={link.link} className="text-gray-800 hover:text-gray-400 duration-500">
                 {link.name}
               </a>
             </li>
           ))}
-          <button className="mx-auto md:ml-4 px-2 py-1 md:px-2 font-semibold bg-white md:text-white md:bg-blue text-dark-blue shadow-2xl border-inner border-2 rounded-lg  ">
-            Contact Us
-          </button>
+          <a href="#socials">
+            <button className="mx-auto md:ml-4 px-2 py-1 md:px-2 font-semibold bg-white md:text-white md:bg-blue text-dark-blue shadow-2xl border-inner border-2 rounded-lg  ">
+              Socials
+            </button>
+          </a>
         </ul>
       </div>
     </nav>

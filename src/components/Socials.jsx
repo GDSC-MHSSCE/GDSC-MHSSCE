@@ -48,18 +48,19 @@ const Socials = () => {
             </h3>
           </div>
           <p className="text-xs sm:text-sm  md:text-md lg:text-lg mb-12">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi exercitationem neque
-            aspernatur magnam ipsam aliquid eligendi architecto corrupti accusantium aliquam ipsa,
-            expedita odit consequuntur ratione non, accusamus, impedit magni molestiae?
+            Learn by actively participating in events, seminar and technical workshop to better
+            understand the real world problems and experience community learning. And for the
+            student developer who wants to chime in and contribute, we have open sourced our website
+            code just for you✌️. Don't forget to follow our social media links to get the latest
+            info regarding any upcoming events.
           </p>
           <div className="flex space-x-6 md:space-x-8 lg:space-x-12 ">
-            {/* <a href="https://www.mhssce.ac.in/">
-                            <button className="flex w-max h-min items-center gap-x-2 rounded px-3 py-1.5 text-sm font-semibold transition hover:text-dark-red hover:bg-white hover:shadow-xl hover:border-[0.005rem] hover:border-red bg-red/50">
-                                <BsLink className="h-5 w-5 md:h-7 md:w-7" />
-                                Socials
-                            </button>
-                        </a> */}
-            <a href="/" className="relative inline-block px-2 rounded-md py-2 items-center group">
+            <a
+              href="https://github.com/yasier-ansari/GDSC-MHSSCE"
+              target="_blank"
+              className="relative inline-block px-2 rounded-md py-2 items-center group"
+              rel="noreferrer"
+            >
               <span className="absolute inset-0 w-full h-full rounded-lg transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-dark-red group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
               <span className="absolute inset-0 w-full h-full rounded-lg bg-white border-2 border-light-red group-hover:bg-dark-red"></span>
               <span className=" relative flex flex-row space-x-1 font-semibold text-xxs md:text-sm lg:text-base group-hover:text-white items-center text-center  text-dark-red ">
@@ -67,12 +68,6 @@ const Socials = () => {
                 <p>Contribute</p>
               </span>
             </a>
-            {/* <a href="https://www.mhssce.ac.in/">
-                            <button className="flex w-max h-min items-center gap-x-2 rounded px-3 py-1.5 text-sm font-semibold transition hover:text-dark-yellow hover:bg-white hover:shadow-xl hover:border-[0.005rem] hover:border-yellow bg-dark-yellow/50">
-                                <BsLink className="h-5 w-5 md:h-7 md:w-7" />
-                                Contribute
-                            </button>
-                        </a> */}
             <a
               href="#footer"
               className="relative inline-block px-2 rounded-md py-2 items-center group"

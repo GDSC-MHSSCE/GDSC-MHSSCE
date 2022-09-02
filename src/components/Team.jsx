@@ -7,7 +7,10 @@ import Socials from './Socials';
 
 const Team = () => {
   return (
-    <section className="h-full items-center justify-around mx-auto md:px-6 md:py-8 lg:px-8 lg:py-12 mb-12">
+    <section
+      className="h-full items-center justify-around mx-auto md:px-6 md:py-8 lg:px-8 lg:py-12 mb-12 scroll-mt-[80px]"
+      id="team"
+    >
       <h2 className="text-center font-semibold text-2xl">Team</h2>
       <h5 className="text-xl text-[#777777] font-medium -mt-2 font-regular text-center">
         Meet Our Wonderful Team Members

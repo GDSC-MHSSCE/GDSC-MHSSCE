@@ -6,14 +6,18 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <div className="h-full lg:h-[80vh] mt-20 md:mt-16 lg:mb-20">
-      <section className="flex flex-col md:flex-row justify-around items-center py-8 px-0 mb-16 md:py-12 lg:py-2 ">
+      <section
+        id="hero"
+        className="scroll-mt-[80px] flex flex-col md:flex-row justify-around items-center py-8 px-0 mb-16 md:py-12 lg:py-2 "
+      >
         <div className="basis-[40%] flex flex-col  text-center mx-auto md:text-start md:mx-0 gap-y-0 items-start order-2  md:py-12 lg:py-8 lg:px-12 md:px-0 md:order-1">
           <div className="text-3xl text-start  md:px-0 md:mx-0 md:text-4xl lg:text-6xl xl:text-6xl mb-0 font-medium">
             <Typewriter
               options={{
                 autoStart: true,
                 loop: true,
-                cursor: '',
+                cursor: '<span class="text-[#b1b1b1] font-light">|</span>',
+                delay: 200,
               }}
               onInit={(typewriter) => {
                 typewriter
@@ -33,19 +37,21 @@ const Hero = () => {
               }}
             />
           </div>
-          <div className="text-start flex flex-col space-y-1 md:space-y-2 -mt-4 lg:-mt-8 border-transparent transition ease-in-out">
+          <div className="text-start flex flex-col space-y-1 md:space-y-2 -mt-2 lg:-mt-5 border-transparent transition ease-in-out">
             <p className="sm:text-lg md:mx-0 md:text-xl lg:text-3xl font-semibold">
               Be a part of GDSC MHSS
             </p>
-            <p className=" text-sm sm:text-md md:text-md  lg:text-lg font-regular text-start md:text-start mb-4">
-              Explore new paths and get acquainted with the knowledge that really matters. Create
-              impact on community through technology
+            <p className=" text-sm sm:text-md md:text-md lg:text-lg font-regular text-start md:text-start mb-4">
+              Explore new paths, get acquainted with the knowledge that really matters and create
+              impact on communities through technology.
             </p>
-            <p className="pt-6  md:mx-0 text-xs md:text-sm lg:text-lg text-start">
+            <p className="pt-8  md:mx-0 text-xs md:text-sm lg:text-lg text-start">
               Become a
               <a
-                href="/"
+                href="https://gdsc.community.dev/mh-saboo-siddik-college-of-engineering-mumbai/"
+                target="_blank"
                 className="relative inline-block px-2 rounded-md py-1 ml-3   font-medium group"
+                rel="noreferrer"
               >
                 <span className="absolute inset-0 w-full h-full rounded-lg transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-dark-blue group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                 <span className="absolute inset-0 w-full h-full rounded-lg bg-white border-2 border-light-blue group-hover:bg-blue"></span>

@@ -14,11 +14,6 @@ const Socials = () => {
       </h6>
       <div className="flex flex-col space-y-8 lg:space-y-0 md:max-w-lg lg:max-w-full lg:flex-row space-x-8 items-center justify-around">
         <div className="hidden md:block overflow-hidden rounded-lg justify-items-center basis-[40%] ">
-          {/* <img
-                        src={ContImage}
-                        alt="mhssce "
-                        className="rounded-md hover:scale-150 duration-500 hover:backdrop-shadow-2xl "
-                    /> */}
           <ReactCompareSlider
             itemOne={<ReactCompareSliderImage src={ContImage} alt="Image one" />}
             itemTwo={<ReactCompareSliderImage src={Cont2Image} alt="Image two" />}

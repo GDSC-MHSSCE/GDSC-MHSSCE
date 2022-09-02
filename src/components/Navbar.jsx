@@ -39,7 +39,7 @@ const Navbar = () => {
       text-gray-800"
         >
           {/* <span className=" ml-1 px-2"> */}
-          <a href="#hero">
+          <a href="#hero" className="flex">
             <img
               src={Logo}
               alt=""
@@ -68,14 +68,14 @@ const Navbar = () => {
           }`}
         >
           {Links.map((link) => (
-            <li key={link.name} className="md:ml-8 text-md font-medium md:my-0 my-7">
+            <li key={link.name} className="md:ml-8 text-base font-regular md:my-0 my-7">
               <a href={link.link} className="text-gray-800 hover:text-gray-400 duration-500">
                 {link.name}
               </a>
             </li>
           ))}
           <a href="#socials">
-            <button className="mx-auto md:ml-4 px-2 py-1 md:px-2 font-semibold bg-white md:text-white md:bg-blue text-dark-blue shadow-2xl border-inner border-2 rounded-lg  ">
+            <button className="mx-auto md:ml-4 px-2 py-1 md:px-2 font-medium bg-white md:text-white md:bg-blue text-dark-blue shadow-2xl border-inner border-2 rounded-lg  ">
               Socials
             </button>
           </a>

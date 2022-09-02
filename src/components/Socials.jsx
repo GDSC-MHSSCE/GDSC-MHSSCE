@@ -43,11 +43,11 @@ const Socials = () => {
             <h5 className="text-[#777777]   font-extrabold text-sm md:text-sm mb-1 md:mb-0 ">
               <FiGithub className=" w-6 h-6 lg:w-8 lg:h-8  -z-0 text-white  group-hover:rotate-0 group-hover:scale-75 lg:group-hover:-left-4 lg:group-hover:top-4 md:group-hover:-top-8  group-hover:-z-50 group-hover:bg-white group-hover:text-dark-red duration-1000 transition-all rotate-[30deg]  absolute animate-pulse md:-top-2  md:animate-none top-0 lg:top-3 bg-[#777] rounded-lg py-1 px-1 " />
             </h5>
-            <h3 className="text-lg md:text-xl  lg:text-2xl font-semibold tracking-tighter -mt-3 mb-4 group-hover:text-blue group-hover:bg- ">
+            <h3 className="text-md sm:text-lg md:text-xl  lg:text-2xl font-semibold tracking-tighter -mt-3 mb-4 group-hover:text-blue group-hover:bg- ">
               yasier-ansari/GDSC-MHSSCE-PORTAL{' '}
             </h3>
           </div>
-          <p className="text-sm  md:text-md lg:text-lg mb-12">
+          <p className="text-xs sm:text-sm  md:text-md lg:text-lg mb-12">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi exercitationem neque
             aspernatur magnam ipsam aliquid eligendi architecto corrupti accusantium aliquam ipsa,
             expedita odit consequuntur ratione non, accusamus, impedit magni molestiae?

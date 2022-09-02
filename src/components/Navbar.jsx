@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo from '../assets/code-bracket.png';
+import Logo from '../assets/left-align-logo.png';
+import Logosm from '../assets/code-bracket.png';
 import { useEffect, useState } from 'react';
 import { FaBars, FaAlignCenter } from 'react-icons/fa';
 
@@ -32,15 +33,24 @@ const Navbar = () => {
         'bg-[#c6e5ff] bg-opacity-50 backdrop-blur-sm  border-black border-b-1 rounded drop-shadow-lg '
       } shadow-md z-40 w-full fixed top-0 items-center justify-around justify-items-center`}
     >
-      <div className="md:flex bg-white items-center justify-between py-4 md:px-10 px-7">
+      <div className="md:flex bg-white items-center justify-between py-3 md:px-10 px-7">
         <div
-          className=" cursor-pointer flex items-center 
+          className="h-8 sm:h-10 cursor-pointer flex items-center
       text-gray-800"
         >
-          <span className=" ml-1 px-2">
-            <img src={Logo} alt="" className="lg:max-w-[80px] w-8 items-center h-auto" />
-          </span>
-          <span className="text-lg font-semibold">MHSSCE</span>
+          {/* <span className=" ml-1 px-2"> */}
+          <img
+            src={Logo}
+            alt=""
+            className=" hidden md:block h-8 items-start md:h-10 md:items-center mx-auto text-center"
+          />
+          <img
+            src={Logosm}
+            alt=""
+            className=" h-5 sm:h-6 block md:hidden items-start mr-2 md:h-12 text-start"
+          />
+          {/* </span> */}
+          <span className="block md:hidden text-lg font-bold">MHSSCE</span>
         </div>
 
         <div

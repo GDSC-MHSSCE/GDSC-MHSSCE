@@ -6,8 +6,8 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <div className="h-full lg:h-[80vh] mt-20 md:mt-16 lg:mb-20">
-      <section className="flex flex-col md:flex-row justify-around items-center mb-16 md:py-12 lg:py-2 ">
-        <div className="basis-[40%] flex flex-col  text-center mx-auto md:text-start md:mx-0 gap-y-0 items-start order-2 py-8 px-12 md:px-0 md:order-1">
+      <section className="flex flex-col md:flex-row justify-around items-center py-8 px-0 mb-16 md:py-12 lg:py-2 ">
+        <div className="basis-[40%] flex flex-col  text-center mx-auto md:text-start md:mx-0 gap-y-0 items-start order-2  md:py-12 lg:py-8 lg:px-12 md:px-0 md:order-1">
           <div className="text-3xl text-start  md:px-0 md:mx-0 md:text-4xl lg:text-6xl xl:text-6xl mb-0 font-medium">
             <Typewriter
               options={{
@@ -33,12 +33,13 @@ const Hero = () => {
               }}
             />
           </div>
-          <div className="text-start flex flex-col space-y-0 md:space-y-2 -mt-4 lg:-mt-8 border-transparent transition ease-in-out">
-            <p className="text-xl md:mx-0 md:text-xl lg:text-3xl font-semibold">
+          <div className="text-start flex flex-col space-y-1 md:space-y-2 -mt-4 lg:-mt-8 border-transparent transition ease-in-out">
+            <p className="sm:text-lg md:mx-0 md:text-xl lg:text-3xl font-semibold">
               Be a part of GDSC MHSS
             </p>
-            <p className=" text-md md:text-md  lg:text-lg font-regular text-start md:text-start mb-4">
-              Explore new paths and get acquainted with the knowledge that really matters
+            <p className=" text-sm sm:text-md md:text-md  lg:text-lg font-regular text-start md:text-start mb-4">
+              Explore new paths and get acquainted with the knowledge that really matters. Create
+              impact on community through technology
             </p>
             <p className="pt-6  md:mx-0 text-xs md:text-sm lg:text-lg text-start">
               Become a
@@ -60,7 +61,7 @@ const Hero = () => {
           <img
             src={HeroImage}
             alt="hero"
-            className="h-60 md:h-[17rem] lg:h-[28rem] mx-auto text-center "
+            className="h-48 sm:h-52 md:h-[17rem] lg:h-[28rem] mx-auto text-center "
           />
         </div>
       </section>

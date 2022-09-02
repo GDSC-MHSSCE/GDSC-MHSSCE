@@ -22,7 +22,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -40,7 +40,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -58,7 +58,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -76,7 +76,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -94,7 +94,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -112,7 +112,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -130,7 +130,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -148,7 +148,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -166,7 +166,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
@@ -184,7 +184,7 @@ const Team = () => {
             <img
               src={MemImage}
               alt="nabeel"
-              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-40 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              className="rounded-full rounded-br-none border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">

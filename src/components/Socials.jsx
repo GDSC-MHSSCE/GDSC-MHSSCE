@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsLink } from 'react-icons/bs';
-import ContImage from '../assets/contribute.png';
-import Cont2Image from '../assets/contribute2.png';
+import ContImage from '../assets/contribute.jpg';
+import Cont2Image from '../assets/contribute2.jpg';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import { FiGithub } from 'react-icons/fi';
 
@@ -12,13 +12,6 @@ const Socials = () => {
       <h6 className=" text-md md:text-lg lg:text-xl font-medium -mt-2 text-[#777777] w-[80%] md:w-[60%]  lg:w-[50%] text-center leading-tight ">
         Contribute & More
       </h6>
-      {/* <div className="flex px-12 py-6 mt-2 md:mt-6 lg:mt-12 items-center justify-around space-x-8 ">
-                <AiFillLinkedin className=" w-8 h-8 md:h-12 md:w-12  lg:h-16  lg:w-16 " />
-                <AiFillInstagram className=" w-8 h-8 md:h-12 md:w-12  lg:h-16  lg:w-16 " />
-                <AiFillFacebook className=" w-8 h-8 md:h-12 md:w-12  lg:h-16  lg:w-16 " />
-                <AiFillMail className=" w-8 h-8 md:h-12 md:w-12  lg:h-16  lg:w-16 " />
-                <AiFillTwitterSquare className=" w-8 h-8 md:h-12 md:w-12  lg:h-16  lg:w-16 " />
-            </div> */}
       <div className="flex flex-col space-y-8 lg:space-y-0 md:max-w-lg lg:max-w-full lg:flex-row space-x-8 items-center justify-around">
         <div className="hidden md:block overflow-hidden rounded-lg justify-items-center basis-[40%] ">
           {/* <img
@@ -47,12 +40,12 @@ const Socials = () => {
               yasier-ansari/GDSC-MHSSCE-PORTAL{' '}
             </h3>
           </div>
-          <p className="text-xs sm:text-sm  md:text-md lg:text-lg mb-12">
+          <p className="text-xs sm:text-sm  md:text-md lg:text-base mb-12">
             Learn by actively participating in events, seminar and technical workshop to better
-            understand the real world problems and experience community learning. And for the
-            student developer who wants to chime in and contribute, we have open sourced our website
-            code just for you✌️. Don't forget to follow our social media links to get the latest
-            info regarding any upcoming events.
+            understand the real world problems and experience community learning.For the student
+            developer who wants to chime in and contribute, we have open sourced our website code
+            just for you✌️. Don't forget to follow our social media links to get the latest info
+            regarding any upcoming events.
           </p>
           <div className="flex space-x-6 md:space-x-8 lg:space-x-12 ">
             <a
@@ -63,7 +56,7 @@ const Socials = () => {
             >
               <span className="absolute inset-0 w-full h-full rounded-lg transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-dark-red group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
               <span className="absolute inset-0 w-full h-full rounded-lg bg-white border-2 border-light-red group-hover:bg-dark-red"></span>
-              <span className=" relative flex flex-row space-x-1 font-semibold text-xxs md:text-sm lg:text-base group-hover:text-white items-center text-center  text-dark-red ">
+              <span className=" relative flex flex-row space-x-1 font-medium  text-xxs md:text-sm lg:text-base group-hover:text-white items-center text-center  text-dark-red ">
                 <BsLink className="mx-auto h-4 w-4 md:h-[1.3rem] md:w-[1.3rem] items-center " />
                 <p>Contribute</p>
               </span>
@@ -74,7 +67,7 @@ const Socials = () => {
             >
               <span className="absolute inset-0 w-full h-full rounded-lg transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-dark-yellow group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
               <span className="absolute inset-0 w-full h-full rounded-lg bg-white border-2 border-light-yellow group-hover:bg-dark-yellow"></span>
-              <span className=" relative flex flex-row space-x-1 font-semibold text-xxs md:text-sm lg:text-base group-hover:text-white items-center text-center  text-dark-yellow ">
+              <span className=" relative flex flex-row space-x-1 font-medium text-xxs md:text-sm lg:text-base group-hover:text-white items-center text-center  text-dark-yellow ">
                 <BsLink className="mx-auto h-4 w-4 md:h-[1.3rem] md:w-[1.3rem] items-center " />
                 <p>Social Link</p>
               </span>

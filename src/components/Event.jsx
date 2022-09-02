@@ -1,5 +1,5 @@
 import React from 'react';
-import EventImage from '../assets/post.png';
+import EventImage from '../assets/post.jpg';
 import PropImage from '../assets/nabeel.jpg';
 import Logo from '../assets/left-align-logo.png';
 
@@ -12,7 +12,7 @@ const Event = () => {
       </h5>
       <div className="flex flex-col md:flex-row justify-end mx-auto items-center py-2 px-4 md:py-4 md:px-8 lg:py-6 lg:px-12">
         <div className="md:basis-[50%] lg:basis-[60%] text-start py-4 order-2 md:order-1 ">
-          <h3 className="font-semibold text-md lg:text-xl mb-3">Learn Web3 the easy way</h3>
+          <h3 className="font-medium text-md lg:text-xl mb-1">Learn Web3 the easy way</h3>
           <p className="text-start text-xs sm:text-sm md:text-sm lg:text-md mb-4">
             Ever wondered how web3 apps are made using Flutter ? Our Android Co-lead is here to
             teach you from the basic and make you a confident web3 Dapp developer in just 1 workshop
@@ -26,7 +26,7 @@ const Event = () => {
             <li>Simple Crypto transaction app</li>
             <li>Integerate the above app with native flutter pub package</li>
           </ul>
-          <div className="grid grid-cols-2 gap-y-4  mt-8 mx-auto justify-items-center justify-center">
+          <div className="grid grid-cols-2 gap-y-4  mt-8 mx-auto justify-items-around justify-around">
             <div>
               <h6 className=" text-xs lg:text-sm  font-semibold mb-2 ">Schedule</h6>
               <p className=" text-xs lg:text-sm">17th September, 2022 </p>

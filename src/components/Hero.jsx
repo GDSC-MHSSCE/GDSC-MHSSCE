@@ -10,13 +10,13 @@ const Hero = () => {
         id="hero"
         className="scroll-mt-[80px] flex flex-col md:flex-row justify-around items-center py-8 px-0 mb-16 md:py-12 lg:py-2 "
       >
-        <div className="basis-[40%] flex flex-col  text-center mx-auto md:text-start md:mx-0 gap-y-0 items-start order-2  md:py-12 lg:py-8 lg:px-12 md:px-0 md:order-1">
-          <div className="text-3xl text-start  md:px-0 md:mx-0 md:text-4xl lg:text-6xl xl:text-6xl mb-0 font-medium">
+        <div className="basis-[40%] flex flex-col  text-center mx-auto md:text-start md:mx-0 gap-y-0 items-start order-2  md:py-12 lg:py-8 lg:px-0 md:px-0 md:order-1">
+          <div className="text-2xl text-start  md:px-0 md:mx-0 md:text-3xl lg:text-4xl xl:text-5xl mb-0 font-medium">
             <Typewriter
               options={{
                 autoStart: true,
                 loop: true,
-                cursor: '<span class="text-[#b1b1b1] font-light">|</span>',
+                cursor: '<span class="text-[#b1b1b1] font-extralight">|</span>',
                 delay: 200,
               }}
               onInit={(typewriter) => {
@@ -37,11 +37,11 @@ const Hero = () => {
               }}
             />
           </div>
-          <div className="text-start flex flex-col space-y-1 md:space-y-2 -mt-2 lg:-mt-5 border-transparent transition ease-in-out">
-            <p className="sm:text-lg md:mx-0 md:text-xl lg:text-3xl font-semibold">
+          <div className="text-start flex flex-col space-y-1 md:space-y-2 -mt-2 lg:-mt-4 border-transparent transition ease-in-out">
+            <p className="sm:text-lg md:mx-0 md:text-xl lg:text-2xl font-medium">
               Be a part of GDSC MHSS
             </p>
-            <p className=" text-sm sm:text-md md:text-md lg:text-lg font-regular text-start md:text-start mb-4">
+            <p className=" text-sm sm:text-md md:text-md lg:text-lg leading-tight font-regular text-start md:text-start mb-4">
               Explore new paths, get acquainted with the knowledge that really matters and create
               impact on communities through technology.
             </p>
@@ -67,7 +67,7 @@ const Hero = () => {
           <img
             src={HeroImage}
             alt="hero"
-            className="h-48 sm:h-52 md:h-[17rem] lg:h-[28rem] mx-auto text-center "
+            className="h-48 sm:h-52 md:h-[17rem] lg:h-[24rem] mx-auto text-center "
           />
         </div>
       </section>

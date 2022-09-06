@@ -26,7 +26,11 @@ const Socials = () => {
               <FiGithub className="w-6 h-6 lg:w-8 lg:h-8 scale-75 text-dark-red top-0 lg:top-3 rounded-lg py-1 px-1" />
             </h5>
             <h3 className="text-md sm:text-lg w-max md:text-xl  lg:text-2xl font-semibold tracking-tighter -mt-3 mb-4  hover:text-blue ">
+<<<<<<< HEAD
             GDSC-MHSSCE/GDSC-MHSSCE{' '}
+=======
+              GDSC-MHSSCE/GDSC-MHSSCE-PORTAL{' '}
+>>>>>>> bb435e92a8bbe801751e9a59c69803398d1843aa
             </h3>
           </div>
           <p className="text-[0.8rem] sm:text-sm  md:text-md lg:text-base mb-12">

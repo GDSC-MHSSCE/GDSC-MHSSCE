@@ -1,7 +1,7 @@
 import React from 'react';
-import GdscImage from '../assets/about-gdsc.png';
 import { AiOutlineTeam, AiOutlineCode, AiOutlineTool } from 'react-icons/ai';
 import { BsGraphUp } from 'react-icons/bs';
+import GdscImage from '../assets/about-gdsc.png';
 
 const Gdsc = () => {
   return (

@@ -23,10 +23,10 @@ const Socials = () => {
         <div className="lg:py-6 lg:px-4 flex flex-col basis-[60%] isolate relative  ">
           <div className="group z-10 w-max">
             <h5 className="text-[#777777]   font-extrabold text-sm md:text-sm mb-1 md:mb-0 ">
-              <FiGithub className=" w-6 h-6 lg:w-8 lg:h-8  -z-0 text-white  group-hover:rotate-0 group-hover:scale-75 lg:group-hover:-left-4 lg:group-hover:top-4 md:group-hover:-top-8  group-hover:-z-50 group-hover:bg-white group-hover:text-dark-red duration-1000 transition-all rotate-[30deg]  absolute animate-pulse md:-top-2  md:animate-none top-0 lg:top-3 bg-[#777] rounded-lg py-1 px-1 " />
+              <FiGithub className="w-6 h-6 lg:w-8 lg:h-8 scale-75 text-dark-red top-0 lg:top-3 rounded-lg py-1 px-1" />
             </h5>
             <h3 className="text-md sm:text-lg w-max md:text-xl  lg:text-2xl font-semibold tracking-tighter -mt-3 mb-4  hover:text-blue ">
-              yasier-ansari/GDSC-MHSSCE-PORTAL{' '}
+            GDSC-MHSSCE/GDSC-MHSSCE{' '}
             </h3>
           </div>
           <p className="text-[0.8rem] sm:text-sm  md:text-md lg:text-base mb-12">
@@ -38,7 +38,7 @@ const Socials = () => {
           </p>
           <div className="flex space-x-8 md:space-x-10 lg:space-x-12 ">
             <a
-              href="https://github.com/yasier-ansari/GDSC-MHSSCE"
+              href="https://github.com/GDSC-MHSSCE/GDSC-MHSSCE"
               target="_blank"
               className="relative inline-block px-2 rounded-md py-2 items-center group"
               rel="noreferrer"

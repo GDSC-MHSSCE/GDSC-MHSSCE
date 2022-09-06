@@ -26,7 +26,7 @@ const Gdsc = () => {
             </div>
             <div className="max-w-xs basis-6/10">
               <p className=" self-start px-1 py-1 text-[0.8rem] md:text-sm lg:text-md text-start mx-auto ">
-                Theres nothing better than meeting people that truly understand you. GDSC is all
+                Theres nothing better than meeting people that truly understand you. GDSC-MHSSCE is all
                 about meeting those like-minded people and working on same interest{' '}
               </p>
             </div>
@@ -38,7 +38,7 @@ const Gdsc = () => {
             </div>
             <div className="max-w-xs basis-6/10">
               <p className=" text-[0.8rem] md:text-sm lg:text-md px-1 py-1 self-start  text-start mx-auto ">
-                Learn the Skill you've always wanted to acquire. Never compromised, always have the
+                Learn the Skill you've always wanted to acquire. Never compromise, always have the
                 best and experienced peers and mentors to learn from.{' '}
               </p>
             </div>
@@ -61,7 +61,7 @@ const Gdsc = () => {
             </div>
             <div className="max-w-xs basis-6/10">
               <p className=" text-[0.8rem] md:text-sm lg:text-md py-1 px-1 self-start  text-start mx-auto ">
-                GDSC has it all. Never stop Growing with an amazing community of 1500+ groups having
+                GDSC-MHSSCE has it all. Never stop Growing with an amazing community having
                 experienced mentor in different field of interest{' '}
               </p>
             </div>

@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
           <div className="text-start flex flex-col space-y-1 md:space-y-2 -mt-2 lg:-mt-4 border-transparent transition ease-in-out">
             <p className="sm:text-lg md:mx-0 md:text-xl lg:text-2xl font-medium">
-              Be a part of GDSC MHSS
+              Be a part of GDSC MHSSCE
             </p>
             <p className=" text-sm sm:text-md md:text-md lg:text-lg leading-tight font-regular text-start md:text-start mb-4">
               Explore new paths, get acquainted with the knowledge that really matters and create

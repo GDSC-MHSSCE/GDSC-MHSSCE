@@ -1,9 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
-import MemImage from '../assets/profile-pic.png';
-=======
 import MemImage from '../assets/pfp.jpg';
->>>>>>> bb435e92a8bbe801751e9a59c69803398d1843aa
 import { FiGithub } from 'react-icons/fi';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
@@ -29,9 +25,7 @@ const Team = () => {
               className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
-          <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-            Lead
-          </p>
+          <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">Lead</p>
           <div className="flex space-x-4 md:space-x-6">
             <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
             <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
@@ -47,9 +41,7 @@ const Team = () => {
               className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
             />
           </div>
-          <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-            Co-Lead
-          </p>
+          <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">Co-Lead</p>
           <div className="flex space-x-4 md:space-x-6">
             <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
             <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
@@ -66,7 +58,7 @@ const Team = () => {
             />
           </div>
           <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-             Web Dev Lead
+            Web Dev Lead
           </p>
           <div className="flex space-x-4 md:space-x-6">
             <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />

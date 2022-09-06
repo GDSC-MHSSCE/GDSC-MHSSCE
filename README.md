@@ -65,7 +65,7 @@ we have used the following stack:
 
 GDSC is all about the community. Therefore, we, GDSC-MHSSCE would love for you to contribute and make GDSC-MHSSCE a better experience
 
-Whether it is fixing bugs, improving our documentation or simply spreading the word, please feel free to join in. Please check [our contribution guide](https://github.com/GDSC-MHSSCE/GDSC-MHSSCE/blob/master/CONTRIBUTING.md) for further details about how to contribute.
+Whether it is fixing bugs, improving our documentation or simply spreading the word, please feel free to join in. Please check [our contribution guide](https://github.com/yasier-ansari/GDSC-MHSSCE/blob/dev/CONTRIBUTING.md) for further details about how to contribute.
 
 ## Community & Support
 

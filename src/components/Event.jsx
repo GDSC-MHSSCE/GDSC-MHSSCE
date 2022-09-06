@@ -1,18 +1,38 @@
 import React from 'react';
 import EventImage from '../assets/post.jpg';
-import PropImage from '../assets/nabeel.jpg';
+import PropImage from '../assets/profile-pic.png';
 import Logo from '../assets/left-align-logo.png';
 
 const Event = () => {
   return (
     <section className="h-full lg:h-[90vh] items-center mb-12 scroll-mt-[80px]" id="event">
-      <h2 className="font-semibold text-lg md:text-xl lg:text-2xl text-center ">Event</h2>
+      <h2 className="font-semibold text-lg md:text-xl lg:text-2xl text-center ">Events</h2>
       <h5 className="-mt-2 font-medium text-md mb-4 md:text-lg lg:text-xl text-[#777777] text-center ">
         Upcoming Event
       </h5>
+<<<<<<< HEAD
+      
+        <div class="animate-pulse flex space-x-4 mt-40">
+          <div class="flex-1 space-y-6 py-1">
+            <div>
+              <h2 className="mt-30 font-semibold text-lg md:text-4xl lg:text-5xl text-center">
+                Coming Soon
+              </h2>
+              <h5 className="font-medium text-md mb-4 md:text-1xl lg:text-3xl text-[#777777] text-center">
+                Stay Tuned!
+              </h5>
+            </div>
+          </div>
+        </div>
+
+      {/* <div className="flex flex-col md:flex-row justify-end mx-auto items-center py-2 sm:px-2 md:py-4 md:px-8 lg:py-6 lg:px-12">
+        <div className="md:basis-[50%] lg:basis-[60%] text-start py-4 order-2 md:order-1 ">
+          <h3 className="font-medium text-md lg:text-xl mb-1">Learn Web3 the easy way</h3>
+=======
       <div className="flex flex-col md:flex-row justify-end mx-auto items-center py-2 sm:px-2 md:py-4 md:px-8 lg:py-6 lg:px-12">
         <div className="md:basis-[50%] lg:basis-[60%] py-4 order-2 items-center justify-center text-center md:order-1 ">
           {/* <h3 className="font-medium text-md lg:text-xl mb-1">Learn Web3 the easy way</h3>
+>>>>>>> bb435e92a8bbe801751e9a59c69803398d1843aa
           <p className="text-start text-[0.8rem] sm:text-sm md:text-sm lg:text-md mb-4">
             Ever wondered how web3 apps are made using Flutter ? Our Android Co-lead is here to
             teach you from the basic and make you a confident web3 Dapp developer in just 1 workshop
@@ -84,7 +104,7 @@ const Event = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

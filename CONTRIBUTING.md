@@ -30,15 +30,18 @@ Strive towards keeping your commits small and isolated - this helps the reviewer
 
 for example:
 
+```
 rectified some responsiveness issue for smaller screen size 🙂 {
+
     * css hover effect implemented
     * js logic integrated
-    *  ....
     * ....
-(from here on, state bugs that are still occurring in your version , if any )
+    * ....
+  (from here on, state bugs that are still occurring in your version , if any )
     * shadow bug still exist -
     * firebase logic is messed up -
-}
+  }
+```
 
 (emoji is optional) being professional is good, but being friendly helps in longer run 😸
 

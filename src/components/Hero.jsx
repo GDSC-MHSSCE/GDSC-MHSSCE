@@ -43,7 +43,7 @@ const Hero = () => {
               Be a part of GDSC MHSSCE
             </p>
             <p className=" text-sm sm:text-md md:text-md lg:text-lg leading-tight font-regular text-start md:text-start mb-4">
-              Explore new paths, get acquainted with the knowledge that really matters and create
+              Explore new paths, get acquainted with the knowledge that really matters and create an
               impact on communities through technology.
             </p>
             <p className="pt-8  md:mx-0 text-sm md:text-md lg:text-lg text-start">

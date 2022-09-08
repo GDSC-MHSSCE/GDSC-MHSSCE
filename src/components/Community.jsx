@@ -30,11 +30,11 @@ const Community = () => {
             We, at GDSC MHSSCE aim to encourage student developers to have a greater{' '}
             <span className=" mx-1 hover:text-blue ">impact</span>
             on the community by <span className=" mx-1 hover:text-red ">igniting</span>a spark of
-            knowledge towards learning various domain. We are firm believers of "Quality Knowledge",
+            knowledge towards learning various domains. We are firm believers of "Quality Knowledge",
             and thus we <span className=" mx-1 hover:text-dark-yellow ">inspire</span>
             our students to advance their skills to bring{' '}
             <span className=" mx-1 hover:text-dark-green ">innovative</span>
-            ideas to build solution for real world problem.
+            ideas to build a solution for real world problem.
           </p>
           <div className="flex space-x-8 md:space-x-10 lg:space-x-12 ">
             {' '}

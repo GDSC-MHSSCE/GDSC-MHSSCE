@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../assets/center-align-logo.png';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { FiTwitter } from 'react-icons/fi';
+import { FiYoutube } from 'react-icons/fi';   
 import { FaFacebookF } from 'react-icons/fa';
 import { GrLinkedinOption } from 'react-icons/gr';
 
@@ -17,13 +18,11 @@ const Footer = () => {
             <img src={Logo} alt="h-16 md:h-20" />
           </div>
           <div className=" basis-[100%] text-center mx-auto">
-            <p className="mb-2 text-xs sm:text-sm md:text-md text-start">
+            <p className="mb-2 text-xs sm:text-sm md:text-md">
               MH Saboo Siddik Polytechnic Rd, Police Colony, Nagpada, Byculla, Mumbai, Maharashtra
               400008
             </p>
-            <h5 className="text-start text-xs sm:text-sm md:text-md font-medium">
-              gmail:mhssce@staff.ac.in
-            </h5>
+            <a href="mailto: gdsc.mhssce@gmail.com" target="_blank" className="text-xs sm:text-sm md:text-md font-medium" >Gmail: gdsc.mhssce@gmail.com</a>
           </div>
         </div>
         <div className=" block items-center w-3/4 lg:hidden h-[0.065rem] mb-6 bg-[#777777] mx-auto self-center"></div>
@@ -39,13 +38,13 @@ const Footer = () => {
                 </a>{' '}
               </p>
               <p className="">
-                <a href="/" className="hover:text-blue">
+                <a href="#event" className="hover:text-blue">
                   {' '}
                   Event{' '}
                 </a>{' '}
               </p>
               <p className="">
-                <a href="/" className="hover:text-blue">
+                <a href="#team" className="hover:text-blue">
                   {' '}
                   Team{' '}
                 </a>{' '}
@@ -56,19 +55,20 @@ const Footer = () => {
             <h5 className="font-medium text-xs sm:text-sm md:text-base mb-4">GDSC Section</h5>
             <div className="text-start text-xs sm:text-sm lg:text-md space-y-2 md:space-y-4 -mt-2 ">
               <p className="">
-                <a href="/" className="hover:text-blue">
+                <a href="#gdsc" className="hover:text-blue">
                   {' '}
                   Chapter{' '}
                 </a>{' '}
               </p>
               <p className="">
-                <a href="/" className="hover:text-blue">
+                <a href="https://github.com/GDSC-MHSSCE/GDSC-MHSSCE" target="_blank" className="hover:text-blue">
                   {' '}
                   Contribute{' '}
                 </a>{' '}
               </p>
               <p className="">
-                <a href="/" className="hover:text-blue">
+                <a href="https://gdsc.community.dev/mh-saboo-siddik-college-of-engineering-mumbai/"
+                target="_blank" className="hover:text-blue">
                   {' '}
                   Member{' '}
                 </a>{' '}
@@ -80,25 +80,30 @@ const Footer = () => {
               Follow Us{' '}
             </p>
             <div className="space-x-3 flex mt-4 flex-row  items-center justify-center mx-auto justify-items-center ">
-              <p className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-                <GrLinkedinOption className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
-              </p>
-              <p className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-                <AiOutlineInstagram className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
-              </p>
-              <p className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-                <FaFacebookF className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
-              </p>
-              <p className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-                <FiTwitter className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
-              </p>
+
+              <a href="https://www.youtube.com/channel/UClh19sNenpUBsGF6lurrFpw" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
+              <FiYoutube className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              </a>
+            
+              <a href="https://twitter.com/GDSC_MHSSCE" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
+              <FiTwitter className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              </a>
+
+              <a href="https://www.linkedin.com/company/gdsc-mhssce" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
+              <GrLinkedinOption className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              </a>
+
+              <a href="https://www.instagram.com/gdsc.mhssce/" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
+              <AiOutlineInstagram className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              </a>
+
+              <a href="https://www.facebook.com/GDSC-Mhssce-103151425863628/" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
+              <FaFacebookF className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              </a>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="w-full flex-grow text-[#777777] mx-auto ">
-                <hr />
-            </div> */}
       <div className="basis-[10%] text-xxs md:text-xs -space-y-2 mt-6 lg:mt-0 md:text-end flex flex-col mx-auto text-center font-base justify-center pb-1 px-16 ">
         {/* <div>
           Made with 💗 by{' '}
@@ -113,7 +118,7 @@ const Footer = () => {
           </a>{' '}
         </div> */}
         <a
-          href="https://github.com/yasier-ansari/GDSC-MHSSCE"
+          href="https://github.com/GDSC-MHSSCE/GDSC-MHSSCE"
           target="_blank"
           className="text-center"
           rel="noreferrer"

@@ -30,8 +30,8 @@ const Socials = () => {
             </h3>
           </div>
           <p className="text-[0.8rem] sm:text-sm  md:text-md lg:text-base mb-12">
-            Learn by actively participating in events, seminar and technical workshop to better
-            understand the real world problems and experience community learning.For the student
+            Learn by actively participating in events, seminar and technical workshops to better
+            understand the real world problems and experience community learning. For the student
             developer who wants to chime in and contribute, we have open sourced our website code
             just for you✌️. Don't forget to follow our social media links to get the latest info
             regarding any upcoming events.

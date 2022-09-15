@@ -14,6 +14,7 @@
     <span> Impact</span>
 </h4>
 
+
 <p align="center">
 We, at GDSC-MHSSCE aim to encourage student developers to have a greater impact on the community by igniting a spark of knowledge towards learning various domain. We are firm believers of "Quality Knowledge", and thus we inspire our students to advance their skills to bring innovative ideas to build solution for real world problem.
 </p>
@@ -22,15 +23,19 @@ We, at GDSC-MHSSCE aim to encourage student developers to have a greater impact 
     <img src="https://img.shields.io/badge/license-Apachev2-blue.svg" alt="GDSc-MHSSCE is under apache v2 license" />
   </a>
   <a href="https://github.com/medusajs/medusa/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
+    <img src="https://img.shields.io/badge/chat-on%20whatsapp-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
   <a>
-    <img src="https://img.shields.io/badge/chat-on%20slack-f30.svg" alt="Slack community" />
+    <img src="https://img.shields.io/badge/All%20PRs-welcome-FFD300.svg" alt="Slack community" />
   </a>
-  <a href="twitter acc">
-    <img src="twitter acc link" alt="Follow @gdscMHSSCE" />
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGDSC-MHSSCE%2FGDSC-MHSSCE&count_bg=%23DA1C1C&title_bg=%23616161&icon=&icon_color=%23E7E7E7&title=repo-visits&edge_flat=false"/></a>
+  <a href="https://twitter.com/intent/follow?screen_name=gdsc_mhssce">
+    <img src="https://img.shields.io/twitter/follow/gdsc_mhssce.svg?label=Follow%20@gdsc_mhssce" alt="Follow @gdsc_mhssce" />
   </a>
 </p>
+
+___
+
 
 ## Getting Started
 
@@ -38,10 +43,10 @@ We, at GDSC-MHSSCE aim to encourage student developers to have a greater impact 
 
 fork this repository in your personal GitHub account
 
-execute :
---> git clone https://github.com/GDSC-MHSSCE/GDSC-MHSSCE.git
---> cd GDSC-MHSSCE
---> npm run start
+> execute following commands in your git terminal 
+  * git clone https://github.com/GDSC-MHSSCE/GDSC-MHSSCE.git
+  * cd GDSC-MHSSCE
+  * npm run start
 
 ### Requirements
 
@@ -52,14 +57,16 @@ execute :
 
 short excerpt expected
 
-## Tech STack Used:
+## Tech Stack Used:
 
 we have used the following stack:
---> React-js
---> TailwindCss
---> gh-pages
---> react-icons
---> typewriter effect
+  * [React-js](https://reactjs.org "ReactJs Homepage") - UI library built in Js by Facebook
+  * [TailwindCss](https://tailwindcss.com "TailwindCSS Hompage") - CSS utility framework for faster website development
+  > Forthcoming features
+  * Firebase - for dynamically loading content from a headless cms
+  * hashnode - for integrating blog functionality in our website 
+
+___
 
 ## Contributions
 
@@ -71,11 +78,11 @@ Whether it is fixing bugs, improving our documentation or simply spreading the w
 
 Use these channels to be part of the community, ask for help while using Medusa, or just learn more about Medusa:
 
-- [Whatsapp](https://discord.gg/medusajs): This is the main channel to join the community. You can ask for help, showcase your work, and stay up to date with the latest news regarding GDSC and GDSC-MHSSCE.
-- [GitHub Issues](https://github.com/GDSC-MHSSCE/medusa/issues): for sending in any issues you face or bugs you find while using GDSC-MHSSCE website.
+- [Whatsapp](): This is the main channel to join the community. You can ask for help, showcase your work, and stay up to date with the latest news regarding GDSC and GDSC-MHSSCE.
+- [GitHub Issues](https://github.com/GDSC-MHSSCE/GDSC-MHSSCE/issues): for sending in any issues you face or bugs you find while using GDSC-MHSSCE website.
 - [GitHub Discussions](https://github.com/GDSC-MHSSCE/GDSC-MHSSCE/discussions): for joining discussions and submitting your ideas.
 - [Gmail](gdsc-mail): communicate with us for any partnership ideas
-- [Twitter](https://twitter.com/GDSC-MHSSCE)
+- [Twitter](https://twitter.com/gdsc_mhssce)
 - [LinkedIn](https://www.linkedin.com/company/GDSC-MHSSCE)
 
 ## License

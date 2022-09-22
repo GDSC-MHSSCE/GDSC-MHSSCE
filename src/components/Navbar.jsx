@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav
       className={`${
         isScrolled && 'shadow-xl border-black rounded drop-shadow-lg '
-      } shadow-none z-40 w-full  fixed top-0 items-center justify-around duration-700 transition-all ease-in justify-items-center`}
+      } shadow-none z-40 w-full font-medium fixed top-0 items-center justify-around duration-700 transition-all ease-in justify-items-center`}
     >
       <div className="md:flex bg-white items-center justify-between py-3 md:px-10 px-7">
         <div

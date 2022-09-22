@@ -1,8 +1,6 @@
 import React from 'react';
 import Logo from '../assets/center-align-logo.png';
-import { AiOutlineInstagram } from 'react-icons/ai';
-import { FiTwitter } from 'react-icons/fi';
-import { FiYoutube } from 'react-icons/fi';   
+import { AiFillYoutube, AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 import { GrLinkedinOption } from 'react-icons/gr';
 
@@ -22,7 +20,14 @@ const Footer = () => {
               MH Saboo Siddik Polytechnic Rd, Police Colony, Nagpada, Byculla, Mumbai, Maharashtra
               400008
             </p>
-            <a href="mailto: gdsc.mhssce@gmail.com" target="_blank" className="text-xs sm:text-sm md:text-md font-medium" >Gmail: gdsc.mhssce@gmail.com</a>
+            <a
+              href="mailto: gdsc.mhssce@gmail.com"
+              target="_blank"
+              className="text-xs sm:text-sm md:text-md font-medium"
+              rel="noreferrer"
+            >
+              Gmail: gdsc.mhssce@gmail.com
+            </a>
           </div>
         </div>
         <div className=" block items-center w-3/4 lg:hidden h-[0.065rem] mb-6 bg-[#777777] mx-auto self-center"></div>
@@ -61,14 +66,23 @@ const Footer = () => {
                 </a>{' '}
               </p>
               <p className="">
-                <a href="https://github.com/GDSC-MHSSCE/GDSC-MHSSCE" target="_blank" className="hover:text-blue">
+                <a
+                  href="https://github.com/GDSC-MHSSCE/GDSC-MHSSCE"
+                  target="_blank"
+                  className="hover:text-blue"
+                  rel="noreferrer"
+                >
                   {' '}
                   Contribute{' '}
                 </a>{' '}
               </p>
               <p className="">
-                <a href="https://gdsc.community.dev/mh-saboo-siddik-college-of-engineering-mumbai/"
-                target="_blank" className="hover:text-blue">
+                <a
+                  href="https://gdsc.community.dev/mh-saboo-siddik-college-of-engineering-mumbai/"
+                  target="_blank"
+                  className="hover:text-blue"
+                  rel="noreferrer"
+                >
                   {' '}
                   Member{' '}
                 </a>{' '}
@@ -80,25 +94,49 @@ const Footer = () => {
               Follow Us{' '}
             </p>
             <div className="space-x-3 flex mt-4 flex-row  items-center justify-center mx-auto justify-items-center ">
-
-              <a href="https://www.youtube.com/channel/UClh19sNenpUBsGF6lurrFpw" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-              <FiYoutube className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
-              </a>
-            
-              <a href="https://twitter.com/GDSC_MHSSCE" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-              <FiTwitter className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
-              </a>
-
-              <a href="https://www.linkedin.com/company/gdsc-mhssce" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-              <GrLinkedinOption className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              <a
+                href="https://www.youtube.com/channel/UClh19sNenpUBsGF6lurrFpw"
+                target="_blank"
+                className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
+                rel="noreferrer"
+              >
+                <AiFillYoutube className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
               </a>
 
-              <a href="https://www.instagram.com/gdsc.mhssce/" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-              <AiOutlineInstagram className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              <a
+                href="https://twitter.com/GDSC_MHSSCE"
+                target="_blank"
+                className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
+                rel="noreferrer"
+              >
+                <AiOutlineTwitter className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
               </a>
 
-              <a href="https://www.facebook.com/GDSC-Mhssce-103151425863628/" target="_blank" className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white ">
-              <FaFacebookF className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              <a
+                href="https://www.linkedin.com/company/gdsc-mhssce"
+                target="_blank"
+                className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
+                rel="noreferrer"
+              >
+                <GrLinkedinOption className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              </a>
+
+              <a
+                href="https://www.instagram.com/gdsc.mhssce/"
+                target="_blank"
+                className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
+                rel="noreferrer"
+              >
+                <AiFillInstagram className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+              </a>
+
+              <a
+                href="https://www.facebook.com/GDSC-Mhssce-103151425863628/"
+                target="_blank"
+                className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
+                rel="noreferrer"
+              >
+                <FaFacebookF className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
               </a>
             </div>
           </div>

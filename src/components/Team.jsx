@@ -37,7 +37,7 @@ const Team = () => {
         </div>
 
         <div
-          className="flex snap-x class-1 pb-4 class-2 class-3 class-4 slider snap-mandatory scroll-px-8 items-center scroll-smooth overflow-x-scroll md:space-x-16 "
+          className="flex snap-x class-1 pb-4 class-2 class-3 class-4 slider snap-mandatory scroll-px-8 items-center scroll-smooth overflow-x-scroll space-x-14 md:space-x-20"
           ref={rowRef}
         >
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -163,7 +163,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Abdullah Bharde</h4>
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Abdullah Bharde</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -199,7 +199,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Hammad Momin</h4>
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Hammad Momin</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}

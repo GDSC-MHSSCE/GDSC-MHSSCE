@@ -1,15 +1,14 @@
 import React from 'react';
 import Logo from '../assets/left-align-logo.png';
-import Logosm from '../assets/code-bracket.png';
 import { useEffect, useState } from 'react';
-import { FaBars, FaAlignCenter } from 'react-icons/fa';
+import { VscChromeClose, VscThreeBars } from 'react-icons/vsc';
 
 const Navbar = () => {
   let Links = [
     { name: 'GDSC', link: '#gdsc' },
     { name: 'Community', link: '#community' },
-    { name: 'Team', link: '#team' },
     { name: 'Event', link: '#event' },
+    { name: 'Team', link: '#team' },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -32,32 +31,26 @@ const Navbar = () => {
         isScrolled && 'shadow-xl border-black rounded drop-shadow-lg '
       } shadow-none z-40 w-full font-medium fixed top-0 items-center justify-around duration-700 transition-all ease-in justify-items-center`}
     >
-      <div className="md:flex bg-white items-center justify-between py-3 md:px-10 px-7">
-        <div
-          className="h-8 sm:h-10 cursor-pointer flex items-center
-      text-gray-800"
-        >
+      <div className="md:flex bg-white items-center place-items-center justify-between py-3 md:px-10 px-7">
+        <div className="h-10 sm:h-12 cursor-pointer flex items-center text-gray-800">
           {/* <span className=" ml-1 px-2"> */}
           <a href="#hero" className="flex">
             <img
               src={Logo}
               alt=""
-              className=" hidden md:block h-8 items-start md:h-10 lg:h-[3.2rem] md:items-center mx-auto text-center"
+              className=" h-[1.8rem] md:h-[2.15rem] lg:h-[2.4rem] items-center mx-auto text-center"
             />
-            <img
-              src={Logosm}
-              alt=""
-              className=" h-5 sm:h-6 block md:hidden items-start mr-2 text-start"
-            />
-            {/* </span> */}
-            <span className="block md:hidden text-md font-semibold">MHSSCE</span>
           </a>
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="text-lg absolute right-8 top-6 cursor-pointer  md:hidden"
+          className="text-lg absolute right-8 top-6 cursor-pointer items-center  font-bold md:hidden"
         >
-          {!open ? <FaBars name="open" /> : <FaAlignCenter name="menu" />}
+          {!open ? (
+            <VscThreeBars name="open" className="h-5 w-5" />
+          ) : (
+            <VscChromeClose name="menu" className="stroke-1 h-5 w-5" />
+          )}
           {/* <FaBars name={open ? 'close' : 'menu'} /> */}
         </div>
 

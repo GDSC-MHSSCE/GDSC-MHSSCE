@@ -19,19 +19,19 @@ const Gdsc = () => {
           />
         </div>
         <div className="basis-[55%] grid md:grid-cols-2 gap-y-1 gap-x-2 ">
-          <div className="flex flex-col border-[0.075rem] group border-hidden hover:!border-opacity-100 hover:border-blue hover:rounded-md hover:shadow-blue hover:shadow-md md:px-4  py-4">
+          <div className="flex flex-col border-[0.075rem] group border-hidden hover:!border-opacity-100 hover:border-blue hover:rounded-md hover:shadow-blue hover:shadow-md px-4  py-4">
             <div className="basis-4/10 text-start text-dark-blue md:text-black text-md md:text-lg lg:text-xl font-medium self-start flex justify-center items-center group-hover:text-blue ">
               <AiOutlineTeam className=" w-4 md:w-5 h-4 md:h-4 lg:w-[1.3rem] lg:h-[1.3rem] mr-3" />
               Connect
             </div>
             <div className="max-w-xs basis-6/10">
               <p className=" self-start px-1 py-1 text-[0.8rem] md:text-sm lg:text-md text-start mx-auto ">
-                There is nothing better than meeting people that truly understand you. GDSC-MHSSCE is all
-                about meeting those like-minded people and working on same interest.{' '}
+                There is nothing better than meeting people that truly understand you. GDSC-MHSSCE
+                is all about meeting those like-minded people and working on same interest.{' '}
               </p>
             </div>
           </div>
-          <div className="flex flex-col border-[0.075rem] group border-hidden hover:!border-opacity-100 hover:border-yellow hover:rounded-md hover:shadow-yellow hover:shadow-md md:px-4  py-4">
+          <div className="flex flex-col border-[0.075rem] group border-hidden hover:!border-opacity-100 hover:border-yellow hover:rounded-md hover:shadow-yellow hover:shadow-md px-4  py-4">
             <div className="basis-4/10 text-md md:text-lg lg:text-xl text-dark-yellow md:text-black font-medium text-start self-start flex justify-center items-center group-hover:text-yellow ">
               <AiOutlineCode className=" w-4 md:w-5 h-4 md:h-4 lg:w-[1.3rem] lg:h-[1.3rem] mr-3" />{' '}
               Learn
@@ -43,7 +43,7 @@ const Gdsc = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col border-[0.075rem] group border-hidden hover:!border-opacity-100 hover:border-red hover:rounded-md hover:shadow-red hover:shadow-md md:px-4  py-4">
+          <div className="flex flex-col border-[0.075rem] group border-hidden hover:!border-opacity-100 hover:border-red hover:rounded-md hover:shadow-red hover:shadow-md px-4  py-4">
             <div className="basis-4/10 text-md md:text-lg lg:text-xl text-dark-red md:text-black font-medium text-start self-start flex justify-center items-center group-hover:text-red ">
               <AiOutlineTool className=" w-4 md:w-5 h-4 md:h-4 lg:w-[1.3rem] lg:h-[1.3rem] mr-3" />{' '}
               Build
@@ -55,7 +55,7 @@ const Gdsc = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col border-[0.075rem] group border-hidden hover:!border-opacity-100 hover:border-green hover:rounded-md hover:shadow-green hover:shadow-md md:px-4  py-4">
+          <div className="flex flex-col border-[0.075rem] group border-hidden hover:!border-opacity-100 hover:border-green hover:rounded-md hover:shadow-green hover:shadow-md px-4  py-4">
             <div className="basis-4/10 text-md md:text-lg lg:text-xl text-dark-green md:text-black font-medium text-start self-start flex justify-center items-center group-hover:text-green ">
               <BsGraphUp className=" w-4 md:w-5 h-4 md:h-4 lg:w-[1.3rem] lg:h-[1.3rem] mr-3" /> Grow
             </div>

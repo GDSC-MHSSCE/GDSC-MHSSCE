@@ -12,8 +12,8 @@ const Footer = () => {
     >
       <div className="flex flex-col lg:flex-row space-x-8 py-8 ">
         <div className="basis-[25%] flex lg:flex-col space-x-4 lg:space-x-0 space-y-0 mx-auto items-center mb-12 lg:mb-12 ">
-          <div className="flex">
-            <img src={Logo} alt="h-16 md:h-20" />
+          <div className="flex basis-1/2 md:basis-1/3">
+            <img src={Logo} className="" alt="logo" />
           </div>
           <div className=" basis-[100%] text-center mx-auto">
             <p className="mb-2 text-xs sm:text-sm md:text-md">
@@ -100,7 +100,7 @@ const Footer = () => {
                 className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
                 rel="noreferrer"
               >
-                <AiFillYoutube className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+                <AiFillYoutube className="w-5 h-5 md:w-6 md:h-6 " />
               </a>
 
               <a
@@ -109,7 +109,7 @@ const Footer = () => {
                 className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
                 rel="noreferrer"
               >
-                <AiOutlineTwitter className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+                <AiOutlineTwitter className="w-5 h-5 md:w-6 md:h-6 " />
               </a>
 
               <a
@@ -118,7 +118,7 @@ const Footer = () => {
                 className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
                 rel="noreferrer"
               >
-                <GrLinkedinOption className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+                <GrLinkedinOption className="w-5 h-5 md:w-6 md:h-6 " />
               </a>
 
               <a
@@ -127,7 +127,7 @@ const Footer = () => {
                 className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
                 rel="noreferrer"
               >
-                <AiFillInstagram className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+                <AiFillInstagram className="w-5 h-5 md:w-6 md:h-6 " />
               </a>
 
               <a
@@ -136,25 +136,13 @@ const Footer = () => {
                 className="hover:text-dark-blue mx-auto bg-[#333] py-1 px-1 text-white rounded-md hover:bg-white "
                 rel="noreferrer"
               >
-                <FaFacebookF className="sm:w-4 sm:h-4 md:w-6 md:h-6 " />
+                <FaFacebookF className="w-5 h-5 md:w-6 md:h-6 " />
               </a>
             </div>
           </div>
         </div>
       </div>
       <div className="basis-[10%] text-xxs md:text-xs -space-y-2 mt-6 lg:mt-0 md:text-end flex flex-col mx-auto text-center font-base justify-center pb-1 px-16 ">
-        {/* <div>
-          Made with 💗 by{' '}
-          <a
-            href="https://github.com/yasier-ansari/ "
-            className="hover:text-base hover:text-medium group-hover:text-[#ff00dd] group-hover:-mt-2 "
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {' '}
-            Noru
-          </a>{' '}
-        </div> */}
         <a
           href="https://github.com/GDSC-MHSSCE/GDSC-MHSSCE"
           target="_blank"

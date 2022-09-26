@@ -13,8 +13,7 @@ const Team = () => {
     if (rowRef.current) {
       const { scrollLeft, clientWidth } = rowRef.current;
 
-      const scrollTo =
-        direction === 'left' ? scrollLeft - clientWidth - 30 : scrollLeft + clientWidth + 30;
+      const scrollTo = direction === 'left' ? scrollLeft - clientWidth : scrollLeft + clientWidth;
       rowRef.current.scrollTo({ left: scrollTo, behavior: 'smooth' });
     }
   };
@@ -37,7 +36,7 @@ const Team = () => {
         </div>
 
         <div
-          className="flex snap-x class-1 pb-4 class-2 class-3 class-4 slider snap-mandatory scroll-px-8 items-center scroll-smooth overflow-x-scroll space-x-14 md:space-x-20"
+          className="flex snap-x class-1 pb-4 class-2 class-3 class-4 slider snap-mandatory items-center scroll-smooth overflow-x-scroll space-x-10 sm:space-x-16 md:space-x-28 lg:space-x-[4.5rem]"
           ref={rowRef}
         >
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">

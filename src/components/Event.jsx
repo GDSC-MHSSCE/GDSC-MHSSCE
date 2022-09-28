@@ -9,13 +9,13 @@ const Event = () => {
       <h5 className="-mt-2 font-medium text-md mb-4 md:text-lg lg:text-xl text-[#777777] text-center ">
         Upcoming Event
       </h5>
-
       <div className="flex flex-col md:flex-row  justify-between mx-auto items-center  py-2 sm:px-2 md:py-4 md:px-8 lg:py-6 lg:px-12">
         <div className="w-80 max-w-[18rem] drop-shadow-lg sm:max-w-[20rem] md:max-w-full order-1 md:order-2 flex flex-col justify-end shadow-md h-max rounded-lg overflow-hidden mx-auto mb-6 md:mb-0 text-start ">
           <div className="basis-[70%]">
             <img src={EventImage} alt="Event" className="object-cover" />
           </div>
           <div className="basis-[30%] bg-[#ffe5e7] px-4 py-4 lg:px-6 flex flex-col space-y-3 ">
+
             <div className="flex justify-between space-x-6 items-center ">
               <h3 className="font-semibold text-sm sm:text-md">Inauguration session</h3>
               <p className="bg-green px-3 text-xxs md:text-xs text-white rounded-full ">Offline</p>

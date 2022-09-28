@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App font-google class-1 class-2 class-3 class-4 ">
+    <div className="App font-google class-1 class-2 class-3 class-4">
       <Navbar />
       <main className="mx-auto justify-center items-center px-6 py-8 md:px-8 lg:px-12">
         <Hero />

@@ -46,15 +46,22 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
+                alt="hafsa shaikh"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">Lead</p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -62,15 +69,22 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
+                alt="ayan shaikh"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">Co-Lead</p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a href="http://linkedin.com/in/ayansk11/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue " />
+              </a>
+
+              <a href="http://github.com/ayansk11" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a href="mailto:name@ayansk152@gmail.com" target="_blank" rel="noopener noreferrer">
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red" />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -78,17 +92,32 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
+                alt="zaid mujahid"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Web Dev Lead
+              Web Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/zaid-mujahid-0923a0221/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://github.com/ZaidMujahid" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@zaidmujahid274@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -96,17 +125,32 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
+                alt="yasier ansari"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Web Dev Co-Lead
+              Web Co-Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/yasier-ansari-711076222"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="https:github.com/yasier-ansari" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@contact.yasier@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -122,9 +166,24 @@ const Team = () => {
               Android Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/zafar-shaikh-068402241"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://github.com/Zafar7645" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@zafarshaikh645@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -140,9 +199,16 @@ const Team = () => {
               Android Co-Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -150,7 +216,7 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
+                alt="arshad shaikh"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
@@ -158,9 +224,24 @@ const Team = () => {
               AI-ML Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/arshad-shaikh1107"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://github.com/Sarshad070121" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@shaikharshad0121@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -176,9 +257,24 @@ const Team = () => {
               AI-ML Co-Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/abdullah-bharde-955ba6222"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://github.com/Abdul-16" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@abdul16bharde@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -194,9 +290,20 @@ const Team = () => {
               Data Science Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://www.linkedin.com/in/maryam-ansari-194470154"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://github.com/maryam3228" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a href="mailto:name@maryamshoeb@gmail.com" target="_blank" rel="noopener noreferrer">
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -212,9 +319,24 @@ const Team = () => {
               Data Science Co-lead
             </p>
             <div className="flex space-x-4 md:space-x-6 -py-4">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/renita-fernandes-8b75b524b"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="/" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@fernandesrenita1611@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -230,9 +352,24 @@ const Team = () => {
               Creative Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/sania-shaikh-0731001a0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@Saniashaikh0304@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -248,9 +385,24 @@ const Team = () => {
               Creative Co-Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/hammadmomin-"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://github.com/HammadMomin" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@mohdhammad.momin@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -266,9 +418,24 @@ const Team = () => {
               Creative Co-Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/daniya-mirkar-026061249"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://github.com/DaniyaMirkar" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@mirkardaniya@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
@@ -284,9 +451,24 @@ const Team = () => {
               Creative Co-Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
-              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              <a
+                href="http://linkedin.com/in/rahul-shinde-634614244"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              </a>
+              <a href="http://github.com/itsrahulshinde" target="_blank" rel="noopener noreferrer">
+                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              </a>
+              <a
+                href="mailto:name@itsrahulshinde2906@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+              </a>
             </div>
           </div>
         </div>

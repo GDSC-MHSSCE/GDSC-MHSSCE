@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="flex basis-1/2 md:basis-1/3">
             <img src={Logo} className="" alt="logo" />
           </div>
-          <div className=" basis-[100%] text-center mx-auto">
+          <div className=" basis-[75%] text-center mx-auto">
             <p className="mb-2 text-xs sm:text-sm md:text-md">
               MH Saboo Siddik Polytechnic Rd, Police Colony, Nagpada, Byculla, Mumbai, Maharashtra
               400008

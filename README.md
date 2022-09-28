@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.medusajs.com">
+  <a href="https://gdsc-mhssce.github.io/GDSC-MHSSCE/">
     <img alt="Medusa" src="src/assets/code-bracket.png" width="100" />
   </a>
 </p>
@@ -13,7 +13,6 @@
     <span>Innovate</span> |
     <span> Impact</span>
 </h4>
-
 
 <p align="center">
 We, at GDSC-MHSSCE aim to encourage student developers to have a greater impact on the community by igniting a spark of knowledge towards learning various domain. We are firm believers of "Quality Knowledge", and thus we inspire our students to advance their skills to bring innovative ideas to build solution for real world problem.
@@ -34,8 +33,13 @@ We, at GDSC-MHSSCE aim to encourage student developers to have a greater impact 
   </a>
 </p>
 
-___
+---
 
+**Visit our official GDSC-MHSSCE website**
+
+https://gdsc-mhssce.github.io/GDSC-MHSSCE/
+
+---
 
 ## Getting Started
 
@@ -43,10 +47,11 @@ ___
 
 fork this repository in your personal GitHub account
 
-> execute following commands in your git terminal 
-  * git clone https://github.com/GDSC-MHSSCE/GDSC-MHSSCE.git
-  * cd GDSC-MHSSCE
-  * npm run start
+> execute following commands in your git terminal
+
+- git clone https://github.com/GDSC-MHSSCE/GDSC-MHSSCE.git
+- cd GDSC-MHSSCE
+- npm run start
 
 ### Requirements
 
@@ -60,19 +65,20 @@ short excerpt expected
 ## Tech Stack Used:
 
 we have used the following stack:
-  * [React-js](https://reactjs.org "ReactJs Homepage") - UI library built in Js by Facebook
-  * [TailwindCss](https://tailwindcss.com "TailwindCSS Hompage") - CSS utility framework for faster website development
-  > Forthcoming features
-  * Firebase - for dynamically loading content from a headless cms
-  * hashnode - for integrating blog functionality in our website 
 
-___
+- [React-js](https://reactjs.org 'ReactJs Homepage') - UI library built in Js by Facebook
+- [TailwindCss](https://tailwindcss.com 'TailwindCSS Hompage') - CSS utility framework for faster website development
+  > Forthcoming features
+- Firebase - for dynamically loading content from a headless cms
+- hashnode - for integrating blog functionality in our website
+
+---
 
 ## Contributions
 
 GDSC is all about the community. Therefore, we, GDSC-MHSSCE would love for you to contribute and make GDSC-MHSSCE a better experience
 
-Whether it is fixing bugs, improving our documentation or simply spreading the word, please feel free to join in. Please check [our contribution guide](https://github.com/yasier-ansari/GDSC-MHSSCE/blob/dev/CONTRIBUTING.md) for further details about how to contribute.
+Whether it is fixing bugs, improving our documentation or simply spreading the word, please feel free to join in. Please check [our contribution guide](https://github.com/GDSC-MHSSCE/GDSC-MHSSCE/blob/dev/CONTRIBUTING.md) for further details about how to contribute.
 
 ## Community & Support
 
@@ -81,9 +87,11 @@ Use these channels to be part of the community, ask for help while using Medusa,
 - [Whatsapp](): This is the main channel to join the community. You can ask for help, showcase your work, and stay up to date with the latest news regarding GDSC and GDSC-MHSSCE.
 - [GitHub Issues](https://github.com/GDSC-MHSSCE/GDSC-MHSSCE/issues): for sending in any issues you face or bugs you find while using GDSC-MHSSCE website.
 - [GitHub Discussions](https://github.com/GDSC-MHSSCE/GDSC-MHSSCE/discussions): for joining discussions and submitting your ideas.
-- [Gmail](gdsc-mail): communicate with us for any partnership ideas
+- Gmail: gdsc.mhssce@gmail.com communicate with us for any partnership ideas
 - [Twitter](https://twitter.com/gdsc_mhssce)
 - [LinkedIn](https://www.linkedin.com/company/GDSC-MHSSCE)
+- [Instagram](https://www.instagram.com/gdsc.mhssce/) get in touch with us for more amazing contents
+- [Youtube](https://www.youtube.com/channel/UClh19sNenpUBsGF6lurrFpw) subscribe to our youtube channel for recorded version of our events and seminars
 
 ## License
 

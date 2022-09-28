@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://gdsc-mhssce.github.io/GDSC-MHSSCE/">
-    <img alt="Medusa" src="src/assets/code-bracket.png" width="100" />
+    <img alt="GDSC MHSSCE" src="src/assets/code-bracket.png" width="100" />
   </a>
 </p>
 <h1 align="center">
@@ -32,12 +32,6 @@ We, at GDSC-MHSSCE aim to encourage student developers to have a greater impact 
     <img src="https://img.shields.io/twitter/follow/gdsc_mhssce.svg?label=Follow%20@gdsc_mhssce" alt="Follow @gdsc_mhssce" />
   </a>
 </p>
-
----
-
-**Visit our official GDSC-MHSSCE website**
-
-https://gdsc-mhssce.github.io/GDSC-MHSSCE/
 
 ---
 

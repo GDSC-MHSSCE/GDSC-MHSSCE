@@ -282,74 +282,12 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
+                alt="maryam ansari"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Data Science Lead
-            </p>
-            <div className="flex space-x-4 md:space-x-6">
-              <a
-                href="http://www.linkedin.com/in/maryam-ansari-194470154"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {' '}
-                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              </a>
-              <a href="http://github.com/maryam3228" target="_blank" rel="noopener noreferrer">
-                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              </a>
-              <a href="mailto:name@maryamshoeb@gmail.com" target="_blank" rel="noopener noreferrer">
-                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
-              </a>
-            </div>
-          </div>
-          <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Renita Fernandes</h4>
-            <div className="container object-cover ">
-              <img
-                src={MemImage}
-                alt="nabeel"
-                className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
-              />
-            </div>
-            <p className="font-regular text-[0.5rem] sm:text-[0.56rem] md:text-[0.84rem] lg:text-[0.85rem]">
-              Data Science Co-lead
-            </p>
-            <div className="flex space-x-4 md:space-x-6 -py-4">
-              <a
-                href="http://linkedin.com/in/renita-fernandes-8b75b524b"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {' '}
-                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              </a>
-              <a href="/" target="_blank" rel="noopener noreferrer">
-                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              </a>
-              <a
-                href="mailto:name@fernandesrenita1611@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
-              </a>
-            </div>
-          </div>
-          <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Maryam Ansari</h4>
-            <div className="container object-cover ">
-              <img
-                src={MemImage}
-                alt="nabeel"
-                className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
-              />
-            </div>
-            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Data Science Lead
+              DS Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
@@ -362,12 +300,12 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
+                alt="renita fernandes"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
             <p className="font-regular text-[0.5rem] sm:text-[0.56rem] md:text-[0.84rem] lg:text-[0.85rem]">
-              Data Science Co-lead
+              DS Co-lead
             </p>
             <div className="flex space-x-4 md:space-x-6 -py-4">
               <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
@@ -446,73 +384,7 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
-                className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
-              />
-            </div>
-            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Creative Co-Lead
-            </p>
-            <div className="flex space-x-4 md:space-x-6">
-              <a
-                href="http://linkedin.com/in/daniya-mirkar-026061249"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {' '}
-                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              </a>
-              <a href="http://github.com/DaniyaMirkar" target="_blank" rel="noopener noreferrer">
-                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              </a>
-              <a
-                href="mailto:name@mirkardaniya@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
-              </a>
-            </div>
-          </div>
-          <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Rahul Shinde</h4>
-            <div className="container object-cover ">
-              <img
-                src={MemImage}
-                alt="nabeel"
-                className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
-              />
-            </div>
-            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Creative Co-Lead
-            </p>
-            <div className="flex space-x-4 md:space-x-6">
-              <a
-                href="http://linkedin.com/in/rahul-shinde-634614244"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {' '}
-                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
-              </a>
-              <a href="http://github.com/itsrahulshinde" target="_blank" rel="noopener noreferrer">
-                <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
-              </a>
-              <a
-                href="mailto:name@itsrahulshinde2906@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
-              </a>
-            </div>
-          </div>
-          <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Daniya Mirkar</h4>
-            <div className="container object-cover ">
-              <img
-                src={MemImage}
-                alt="nabeel"
+                alt="daniya mirkar"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
@@ -530,7 +402,7 @@ const Team = () => {
             <div className="container object-cover ">
               <img
                 src={MemImage}
-                alt="nabeel"
+                alt="rahul shinde"
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
